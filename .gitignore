@@ -1,0 +1,25 @@
+# Fichiers de build (générés lors de la compilation)
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.su
+*.d
+
+# Fichiers de configuration locale / utilisateur (Eclipse)
+.settings/
+.analytics
+.local-settings.ini
+
+# Fichiers de configuration de débogage / lancements spécifiques à votre machine
+*.launch
+
+# Fichiers temporaires ou de sauvegarde de l'Ioc (CubeMX)
+.mxproject
+# Note : Gardez ABSOLUMENT le fichier .ioc (ex: votre_projet.ioc), 
+# mais vous pouvez ignorer les fichiers de sauvegarde temporaires si nécessaire :
+# *~
